@@ -1,0 +1,117 @@
+* {
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Inter", sans-serif;
+    color: #303030;
+}
+header {
+    background-color: #2965f1;
+    padding: 23px 0;
+}
+header span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+.main-section {
+    background-color: #fafaff;
+    padding: 60px 0;
+    min-height: 100vh;
+}
+.main-title {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.main-text {
+    font-weight: 400;
+    font-size: 18px;
+}
+.main-image {
+    max-width: 715px;
+}
+.about-section {
+    background-color: #fff;
+    padding: 100px 0;
+}
+select {
+    appearance: none;
+    width: 150px;
+    padding: 9px 0;
+    background: url("./assets/images/select.svg") no-repeat right 10px top 50%;
+    font-weight: 400;
+    font-size: 16px;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.frameworks-list {
+    list-style-image: url("./assets/images/fr-list.svg");
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.books-list {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.label {
+    font-weight: 400;
+    font-size: 16px;
+}
+.text-field {
+    padding: 9px 0;
+    width: 330px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0);
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(48, 48, 48, 0.2);
+}
+.btn {
+    border: none;
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+.line {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 100vw;
+    margin: 60px auto;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #95a1bb;
+    font-size: 14px;
+}
+th {
+    font-weight: 700;
+    text-align: center;
+    padding: 12px;
+}
+td {
+    padding: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+footer {
+    background-color: rgba(163, 167, 255, 0.3);
+    padding: 27px 0;
+}
+.footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    text-decoration: none;
+}
